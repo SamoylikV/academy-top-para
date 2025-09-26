@@ -1,0 +1,14 @@
+name: First workflow
+
+on: [push]
+
+jobs:
+  hello-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run python scripit
+        run: python hello.py
