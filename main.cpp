@@ -7,7 +7,7 @@ int main(){
   std::string s(secret);
   if (s = "qwerty"){
     std::cout << "Пароль верный!!!" << std::endl;
-  } eles {
+  } else {
     std::cout << "Пароль неверный!!!" << std::endl;
   }
   return 0;
